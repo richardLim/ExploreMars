@@ -154,7 +154,7 @@
 								robot.moveRobot();
 							}
 
-							if(parseInt(j) == robot.moveCmd.length-1) {
+							if(parseInt(j) == robot.moveCmd.length-1 && robot.isLost == false ) {
 								robot.doneRobot();
 							}
 						}
